@@ -1,27 +1,27 @@
 {
-  "languages": {
-    "TypeScript": {
-      "language_servers": ["vtsls", "biome"],
-      "formatter": {
-        "language_server": {
-          "name": "biome",
-        },
-      },
-      "format_on_save": "on",
-    },
-    "JSON": {
-      "language_servers": ["biome"],
-      "formatter": {
-        "language_server": {
-          "name": "biome",
-        },
-      },
-      "format_on_save": "on",
-    },
-  },
-  "lsp": {
-    "biome": {
-      "settings": {},
-    },
-  },
+	"languages": {
+		"TypeScript": {
+			"language_servers": ["vtsls", "biome"],
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			},
+			"format_on_save": "on"
+		},
+		"JSON": {
+			"language_servers": ["biome"],
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			},
+			"format_on_save": "on"
+		}
+	},
+	"lsp": {
+		"biome": {
+			"settings": {}
+		}
+	}
 }

@@ -7,7 +7,9 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"lint": "pnpm exec biome lint",
 		"lint:fix": "pnpm exec biome lint --write",
-		"format": "pnpm exec biome format --write"
+		"format": "pnpm exec biome format --write",
+		"check:fix": "pnpm exec biome check --write",
+		"test:unit": "pnpm exec vitest run --config vitest-unit.config.ts"
 	},
 	"keywords": [],
 	"author": "",
@@ -16,7 +18,8 @@
 	"devDependencies": {
 		"@biomejs/biome": "2.4.15",
 		"@types/node": "^25.7.0",
-		"typescript": "^6.0.3"
+		"typescript": "^6.0.3",
+		"vitest": "^4.1.6"
 	},
 	"dependencies": {
 		"@paralleldrive/cuid2": "^3.3.0"
