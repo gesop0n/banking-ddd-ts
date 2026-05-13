@@ -1,0 +1,24 @@
+{
+	"name": "banking-ddd-ts",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "pnpm exec biome lint",
+		"lint:fix": "pnpm exec biome lint --write",
+		"format": "pnpm exec biome format --write"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.12.2",
+	"devDependencies": {
+		"@biomejs/biome": "2.4.15",
+		"@types/node": "^25.7.0",
+		"typescript": "^6.0.3"
+	},
+	"dependencies": {
+		"@paralleldrive/cuid2": "^3.3.0"
+	}
+}
